@@ -63,10 +63,10 @@ class MathUtils {
 }
 
 /**
- * 有状态类
+ * 有状态类,非线程安全
  */
 class StateClass {
-    private static int i = 1 ;
+    private int i = 1 ;
     public void test(){
         i++ ;
     }
